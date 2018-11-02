@@ -10,4 +10,7 @@ class ApplicationController < ActionController::Base
   def another
     false
   end
+  
+  def ok
+  end
 end
