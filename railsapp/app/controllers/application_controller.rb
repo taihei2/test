@@ -3,6 +3,10 @@ class ApplicationController < ActionController::Base
     "user logged in"
   end
 
+  def zzz
+    return "ABCDE"
+  end
+
   def new_method?
     true
   end
