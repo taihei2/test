@@ -6,4 +6,8 @@ class ApplicationController < ActionController::Base
   def new_method?
     true
   end
+
+  def another
+    false
+  end
 end
